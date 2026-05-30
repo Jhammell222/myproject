@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffffff;
+}
+
+.container{
+    width:1200px;
+    height:700px;
+    display:flex;
+}
+
+/* LEFT */
+
+.left-side{
+    width:45%;
+    height:100%;
+    overflow:hidden;
+}
+
+.left-side img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* RIGHT */
+
+.right-side{
+    width:55%;
+    background:#f5f5f5;
+    position:relative;
+    overflow:hidden;
+}
+
+/* WAVES */
+
+.wave-top{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:90px;
+}
+
+.wave-bottom{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:90px;
+}
+
+/* FORM */
+
+.form-wrapper{
+    width:70%;
+    margin:auto;
+    padding-top:120px;
+    position:relative;
+    z-index:2;
+}
+
+.form-wrapper h2{
+    color:#9a604f;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.input-group{
+    position:relative;
+    margin-bottom:14px;
+}
+
+.input-group input{
+    width:100%;
+    height:48px;
+
+    border:none;
+    outline:none;
+
+    background:#e8e8e8;
+
+    padding-left:55px;
+
+    font-size:15px;
+    color:#666;
+
+    border-radius:4px;
+}
+
+/* ICON CONTAINER */
+
+.input-icon{
+    position:absolute;
+
+    left:18px;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:18px;
+    height:18px;
+}
+
+.input-icon img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
+}
+
+/* BUTTON */
+
+.register-btn{
+    width:100%;
+    height:52px;
+
+    border:none;
+    border-radius:4px;
+
+    margin-top:10px;
+
+    background:#b4745e;
+    color:white;
+
+    font-size:20px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+/* LOGIN */
+
+.login-text{
+    text-align:center;
+    margin-top:18px;
+    font-size:14px;
+}
+
+.login-text a{
+    text-decoration:none;
+    color:#d97f62;
+    font-weight:bold;
+}
